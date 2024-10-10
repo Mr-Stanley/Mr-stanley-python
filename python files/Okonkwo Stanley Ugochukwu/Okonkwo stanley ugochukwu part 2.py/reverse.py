@@ -6,4 +6,5 @@ def reverse(elements):
 		reversed_number = (reversed_number * 10) + num1
 		elements = elements // 10
 		return reversed_number
-print(reverse(894))
+print(reversepython --version
+(894))

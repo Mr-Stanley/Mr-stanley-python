@@ -1,8 +1,8 @@
 def get_sorted_numbers(num1, num2, num3):
-		if num1 < num2 and num1 < num3:
-			least_num = num1
+		if num1 < num2 and num1 < num3 and num2 < num3
+			return num1, num2, num3
 		elif num2 < num1 and num2 < num3:
-			least_num = num2
+			return num1, num2, num3
 		else:
 			least_num = num3
 		if num1 > num2 and num1 > num3:
@@ -21,4 +21,4 @@ def get_sorted_numbers(num1, num2, num3):
 
 
 
-print(get_sorted_numbers(15, 11, 55))
+print(get_sorted_numbers(8, 6, 7))

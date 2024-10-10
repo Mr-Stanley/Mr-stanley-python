@@ -1,17 +1,14 @@
-all_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+no_of_words = 0
+
+no_of_digits = 0
+
+
+digits = input("Enter words: ")
+
+for characters in digits:
+	if characters >= 'a' and characters <= 'z' or characters == " " :
+		no_of_words +=1
+	if characters >= '1' and characters <= '9':
+		no_of_digits +=1
  
-all_letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-
-string = "gunworld123"
-
-total_name = 0
-total_number = 0
-
-	if (count in all_digits):
-        	total_name += 1
- 
-	else:
-        	total_number += 1
-
-
- 		print(f"LETTERS {total_name} DIGITS {total_number}")
+print(f"LETTERS {no_of_words} DIGITS {no_of_digits}")
